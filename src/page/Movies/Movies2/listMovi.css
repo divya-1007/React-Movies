@@ -1,0 +1,39 @@
+.listMovic {
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 20px -654px;
+    padding-top: 7rem;
+}
+.card img {
+    height: 483px;
+    width: 100%;
+    object-fit: cover;
+    padding: -25px;
+    margin: 10px 2px;
+}
+.image-containers {
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-containers:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.image-containers:hover .overlay {
+	opacity: 1;
+}
+
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 56%;
+    height: 96%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+}
